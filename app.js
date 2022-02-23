@@ -26,4 +26,4 @@ console.log(
     .match(/.{1,3}/g)
     .join(",")
     .concat(`.${myValueArray[1]}`)
-);
+); // output 100,000.45
